@@ -61,20 +61,19 @@ Once you open it, you will see that the matrix has been defined inside the main 
 
 **Step 7:** To test various matrices, simply change the values to other positive integers. For example, 
 	if you want to test the following matrix:
-	```
+
 	M = 5   30  60
 	    40  70  90
-	    25  60  70
-     	```
+            25  60  70
 
 You will change the values of the matrix that has been defined to this:
-	```
+
 	int m[3][3] = {
-		{5, 30, 60}, 	// First row of the matrix 
+		{5, 30, 60}, 	// First row of the matrix
 		{40, 70, 90}, 	// Second row of the matrix
-		{25, 60, 70}	// Third row of the matrix 
+		{25, 60, 70}	// Third row of the matrix
 	};
- 	```
+
 
 Make sure you save the file after changing the matrix.
 
