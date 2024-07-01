@@ -64,7 +64,7 @@ Once you open it, you will see that the matrix has been defined inside the main 
 
 	M = 5   30  60
 	    40  70  90
-            25  60  70
+        25  60  70
 
 You will change the values of the matrix that has been defined to this:
 
