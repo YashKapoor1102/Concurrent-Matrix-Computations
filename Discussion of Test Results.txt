@@ -1,0 +1,68 @@
+Name: Yash Kapoor
+
+Discussion of Test Results
+
+- I tested my program thoroughly with a number of different sets of data values.
+  Specifically, I tested many different matrices to ensure my program works properly. 
+  Below are two data sets that I tested:
+
+
+Test Data Set #1 (Mandatory Data Set):
+
+Input: M = 20 20 50
+	   10 6  70
+ 	   40 3  2
+
+Outputs: 
+
+Child Process (P3): working with element 3 of D
+Child Process (P2): working with element 2 of D
+Child Process (P1): working with element 1 of D
+
+
+Start Time: 1634690948.944801 sec
+End Time: 1634690948.945100 sec
+
+Computational time to perform all the operations: 299 micro sec
+
+
+The determinant of this matrix is: 41140
+
+The largest value in this matrix is: 70
+
+
+
+Test Data Set #2 (Additional Data Set):
+
+Input: M = 5   30  60
+	   40  70  90
+           25  60  80
+
+Outputs: 
+
+Child Process (P3): working with element 3 of D
+Child Process (P2): working with element 2 of D
+Child Process (P1): working with element 1 of D
+
+
+Start Time: 1634698374.507920 sec
+End Time: 1634698374.508193 sec
+
+Computational time to perform all the operations: 273 micro sec
+
+
+The determinant of this matrix is: 11500
+
+The largest value in this matrix is: 90
+
+
+
+
+Conclusion:
+
+- After manually calculating the determinant, I can conclude that my program calculates the  
+  determinant of both matrices correctly. Also, it is evident that the largest values
+  in the first and second matrices are 70 and 90, respectively. Hence, my program is 
+  functioning the way it is supposed to. 
+
+

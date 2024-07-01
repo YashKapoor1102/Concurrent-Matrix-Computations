@@ -1,0 +1,23 @@
+Name: Yash Kapoor
+					Important Goals of my Design
+
+In this project, I programmed a concurrent program that consists of three processes that compute 
+the determinant and find the largest integer of a 3x3 matrix. I will describe the important goals of my 
+design using point form:
+-	I used a 2D array to store the 3x3 matrix. 
+-	I created 3 child processes from a single parent process, so that each individual child process can 
+	compute the largest integer in each row and values of array D (D[1], D[2], and D[3]). In this case, 
+	the array D helped one of the child processes to calculate the determinant of the matrix. 
+-	To store the largest integer in each row and the values of array D, I used Linux shared memory, 
+	so I can make one of the child processes calculate the determinant and the largest integer in the 
+	whole matrix. 
+-	Since the last child process to finish was P1 (I named each process in the DET.c file -> P1, P2, and 
+	P3), I made P1 calculate the determinant by adding all the values of array D. Then, I found the 
+	largest value in the entire matrix by comparing the maximum value of each row in the matrix.
+-	After using one of the child processes (i.e., P1) to calculate the determinant and the largest 
+	value in the matrix, I put them (determinant and largest value) in shared memory, so I can use 
+	the parent process to print out that information.
+-	I made the parent process wait until all the child processes were finished. Then, I made it print 
+	out the determinant and the largest value in the matrix to the user. Finally, I exited the program 
+	after all processes finished executing successfully. 
+
