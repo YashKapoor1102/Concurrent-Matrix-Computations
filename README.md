@@ -6,7 +6,6 @@ Also, they compute the largest integer in the matrix. Upon completion, the deter
 integer in the matrix is outputted to the user. 
 
 This program is made up of two files:<br><br>
-	
 &nbsp;&nbsp;&nbsp;&nbsp;**DET.h**		A header file<br>
 &nbsp;&nbsp;&nbsp;&nbsp;**DET.c**	 	Contains the code for the program<br><br>
 
